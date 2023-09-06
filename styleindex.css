@@ -1,34 +1,59 @@
 
 body{
-background: white;
-display: flex;
-justify-content: center;
+background: rgb(113, 193, 209);
 }
 .frame1{
-    width: Hug (796px);
-    height: Hug (850px);
+    width: 796px;
+    height: 100px;
     top: 103px;
     left: 242px;
     gap: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .frame2{
-    width: Hug (611px);
-    height: Hug (200px);
+    width: 611px;
+    height: 200px;
     gap: 64px;
 }
+.frame3{
+    width: 814px;
+    height:1,252px;
+    top: 123px;
+    left: 233px;
+    gap: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+.frame4{
+    width: Fill (814px);
+    height: Hug (468px);
+    gap: 40px;
+
+}
+.judul2{
+    width: 477px;
+    height: 120px;
+}
 .judul{
-    width: 794px;
+    width: 700px;
     height: 106px;
+}
+h1{
     font-family: Plus Jakarta Sans;
-    font-size: 44px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 53px;
+    line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
 }
 img{
-    width: 796px;
-    height: 393px;
+    width: 710px;
+    height: 350px;
+    margin-top: 20px;
 }
 button{
     width: Hug (167px);
@@ -53,8 +78,8 @@ button{
 
 }
 .isi{
-    width: Hug (611px);
-    height: Hug (395px);
+    width: 500px;
+    height: 395px;
     gap: 64px;
     font-family: Satoshi;
     font-size: 18px;
